@@ -1,0 +1,82 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: aquamarine;
+}
+h1{
+    color: red;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div{
+
+    border: 2px solid black;
+    width: 30%;
+    display:inline-block;
+    margin-left: 2.3%;
+    font-weight: bold;
+    background-color: grey;
+    overflow: auto;
+}
+p{
+   margin: 10px; 
+   
+}
+.chikken{
+    background-color: coral;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-right: 0;
+    float: right;
+    border: 2px solid black;
+  
+}
+.beef{
+      background-color: rgb(222, 250, 65);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-right: 0;
+    float: right;
+    border: 2px solid black;
+  
+}
+.sushi{
+      background-color: rgba(248, 92, 35, 0.623);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-right: 0;
+    float: right;
+    border: 2px solid black;
+}
+@media (min-width:768px) and (max-width:992px)
+{
+    div{
+
+    border: 2px solid black;
+    width: 45%;
+   font-weight: bold;
+    display:inline-block;
+    margin-left: 2.3%;
+    background-color: grey;
+
+}
+.div3{
+    width: 93%;
+}
+}
+@media (max-width:767px) {
+    div{
+    border: 2px solid black;
+    width: 93%;
+     font-weight: bold;
+    display:inline-block;
+    margin-left: 2.3%;
+    background-color: grey;
+    }
+}
